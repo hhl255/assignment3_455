@@ -257,6 +257,15 @@ class GtpConnection:
             # TODO: finish the random move
             pass
         pass
+
+    # TODO
+    def random_policy():
+        pass
+
+
+    # TODO
+    def rule_policy():
+        pass
     """
     ==========================================================================
     Assignment 2 - commands we already implemented for you
