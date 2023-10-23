@@ -253,9 +253,11 @@ class GtpConnection:
         if self.policy == "rule_based":
             # TODO: finish the rule based move
             pass
+            self.respond()
         else:
             # TODO: finish the random move
             pass
+            self.respond()
         pass
 
     # TODO
