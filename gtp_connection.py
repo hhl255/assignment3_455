@@ -42,6 +42,7 @@ class GtpConnection:
             Represents the current board state.
         """
         self._debug_mode: bool = debug_mode
+        self.policy = "rule_based"
         self.go_engine = go_engine
         self.board: GoBoard = board
         self.commands: Dict[str, Callable[[List[str]], None]] = {
@@ -67,7 +68,9 @@ class GtpConnection:
             "gogui-rules_board": self.gogui_rules_board_cmd,
             "gogui-analyze_commands": self.gogui_analyze_cmd,
             "timelimit": self.timelimit_cmd,
-            "solve": self.solve_cmd
+            "solve": self.solve_cmd,
+            "policy":self.policy_cmd,
+            "policy_moves": self.policy_moves_cmd
         }
 
         # argmap is used for argument checking
@@ -235,6 +238,25 @@ class GtpConnection:
     Assignment 2 - game-specific commands start here
     ==========================================================================
     """
+    def policy_cmd(self, args: List[str]):
+        policy = args[0].lower()
+        if policy == "rule_based":
+            self.policy = policy
+            self.respond()
+        elif policy == "random":
+            self.policy = policy
+            self.respond()
+        else:
+            self.respond("Unknow policytype")
+
+    def policy_moves_cmd(self, args: List[str]):
+        if self.policy == "rule_based":
+            # TODO: finish the rule based move
+            pass
+        else:
+            # TODO: finish the random move
+            pass
+        pass
     """
     ==========================================================================
     Assignment 2 - commands we already implemented for you

@@ -1,0 +1,591 @@
+<html>
+<head>
+<title>Output: ./assignment3-public-tests.gtp</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="gogui-regress 1.5.3 (http://gogui.sf.net)">
+<style type="text/css">
+<!--
+body { margin:0; }
+span.comment { color:#999999; }
+span.fail { font-weight:bold; color:#ff5454; }
+span.error { font-weight:bold; color:#ffa954; }
+span.stderr { color:#666666; }
+span.invalid { background:#ff5454;}
+span.pass { font-weight:bold; color:#5eaf5e; }
+span.test { font-weight:bold; }
+-->
+</style>
+</head>
+<body bgcolor="white" text="black" link="#0000ee" vlink="#551a8b">
+<table border="0" width="100%" bgcolor="#91aee8" border="0">
+<tr><td>
+<h1>Output: ./assignment3-public-tests.gtp</h1>
+</td></tr>
+</table>
+<table width="100%" bgcolor="#e0e0e0">
+<tr><th align="left">Date:</th><td>October 23, 2023 at 12:17:36 PM MDT</td></tr>
+<tr><th align="left">Host:</th><td>mac-16.local</td></tr>
+<tr><th align="left" valign="top">Command:</th>
+<td valign="top"><tt>python3 Ninuki.py</tt></td></tr>
+</table>
+<pre style="margin:1em">
+name
+= Go0
+
+version
+= 1.0
+
+cputime
+? Unknown command
+
+</pre>
+<hr style="margin:1em" size="1">
+<pre style="margin:1em">
+<span class="command">boardsize 5
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">play b a2
+</span>= 
+
+<span class="command">play w a3
+</span>= 
+
+<span class="command">play b b2
+</span>= 
+
+<span class="command">play w b3
+</span>= 
+
+<span class="command">play b c2
+</span>= 
+
+<span class="command">play w c3
+</span>= 
+
+<span class="command">play b d2
+</span>= 
+
+<span class="command">play w d3
+</span>= 
+
+<span class="test"><a name="10">10 policy_moves
+</a>#?[Win e2]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">play b a4
+</span>= 
+
+<span class="command">play w a5
+</span>= 
+
+<span class="command">play b b4
+</span>= 
+
+<span class="command">play w b5
+</span>= 
+
+<span class="command">play b c4
+</span>= 
+
+<span class="command">play w c5
+</span>= 
+
+<span class="command">play b e3
+</span>= 
+
+<span class="test"><a name="20">20 policy_moves
+</a>#?[BlockWin e2]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">policy random
+</span><span class="error">? Unknown command
+
+</span><span class="test"><a name="30">30 policy_moves
+</a>#?[Random a1 b1 c1 d1 d4 d5 e1 e2 e4 e5]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">boardsize 5
+</span>= 
+
+<span class="command">clear_board
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">play b a2
+</span>= 
+
+<span class="command">play w a3
+</span>= 
+
+<span class="command">play b b2
+</span>= 
+
+<span class="command">play w b3
+</span>= 
+
+<span class="command">play b c2
+</span>= 
+
+<span class="command">play w c3
+</span>= 
+
+<span class="command">play b d2
+</span>= 
+
+<span class="command">play w d3
+</span>= 
+
+<span class="command">play b a1
+</span>= 
+
+<span class="command">play w a4
+</span>= 
+
+<span class="command">play b a5
+</span>= 
+
+<span class="command">play w b4
+</span>= 
+
+<span class="command">play b b5
+</span>= 
+
+<span class="command">play w c4
+</span>= 
+
+<span class="command">play b c5
+</span>= 
+
+<span class="command">play w d4
+</span>= 
+
+<span class="command">play b d5
+</span>= 
+
+<span class="command">play w b1
+</span>= 
+
+<span class="command">play b a3
+</span>= 
+
+<span class="command">play w c1
+</span>= 
+
+<span class="command">play b d3
+</span>= 
+
+<span class="test"><a name="40">40 policy_moves
+</a>#?[BlockWin a4 d1 e2 e5]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">boardsize 5
+</span>= 
+
+<span class="command">clear_board
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">play B b1
+</span>= 
+
+<span class="command">play W c2
+</span>= 
+
+<span class="command">play B b2
+</span>= 
+
+<span class="command">play W c3
+</span>= 
+
+<span class="command">play B b3
+</span>= 
+
+<span class="command">play W c4
+</span>= 
+
+<span class="command">play B b4
+</span>= 
+
+<span class="test"><a name="50">50 genmove w
+</a>#?[b5]
+</span><span class="fail">= a3
+
+</span>
+<span class="command">clear_board
+</span>= 
+
+<span class="command">boardsize 7
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">play b c3
+</span>= 
+
+<span class="command">play w c4
+</span>= 
+
+<span class="command">play b d3
+</span>= 
+
+<span class="command">play w d4
+</span>= 
+
+<span class="command">play b f3
+</span>= 
+
+<span class="command">play w e4
+</span>= 
+
+<span class="command">play b a3
+</span>= 
+
+<span class="test"><a name="60">60 policy_moves
+</a>#?[OpenFour b4 f4]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">play w d5
+</span>= 
+
+<span class="test"><a name="70">70 genmove b
+</a>#?[e3]
+= e3
+
+</span>
+<span class="command">boardsize 7
+</span>= 
+
+<span class="command">clear_board
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">play b c3
+</span>= 
+
+<span class="command">play w c4
+</span>= 
+
+<span class="command">play b d3
+</span>= 
+
+<span class="command">play w d4
+</span>= 
+
+<span class="command">play b f3
+</span>= 
+
+<span class="command">play w e4
+</span>= 
+
+<span class="command">play b a3
+</span>= 
+
+<span class="command">play w d5
+</span>= 
+
+<span class="command">play b b3
+</span>= 
+
+<span class="command">play w e3
+</span>= 
+
+<span class="command">play b f4
+</span>= 
+
+<span class="command">play w b4
+</span>= 
+
+<span class="test"><a name="80">80 genmove b
+</a>#?[a4]
+</span><span class="fail">= g1
+
+</span>
+<span class="command">play w b6
+</span>= 
+
+<span class="test"><a name="90">90 policy_moves
+</a>#?[Capture c6 d6 e6]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">clear_board
+</span>= 
+
+<span class="command">boardsize 7
+</span>= 
+
+<span class="command">policy random
+</span><span class="error">? Unknown command
+
+</span><span class="command">play b c3
+</span>= 
+
+<span class="command">play w c4
+</span>= 
+
+<span class="command">play b d3
+</span>= 
+
+<span class="command">play w d4
+</span>= 
+
+<span class="command">play b f3
+</span>= 
+
+<span class="command">play w e4
+</span>= 
+
+<span class="command">play b a3
+</span>= 
+
+<span class="command">play w d5
+</span>= 
+
+<span class="command">play b b3
+</span>= 
+
+<span class="command">play w e3
+</span>= 
+
+<span class="command">play b f4
+</span>= 
+
+<span class="command">play w b4
+</span>= 
+
+<span class="command">play b a4
+</span>= 
+
+<span class="command">play w c5
+</span>= 
+
+<span class="command">play b e2
+</span>= 
+
+<span class="command">play w b6
+</span>= 
+
+<span class="command">play b a7
+</span>= 
+
+<span class="test"><a name="100">100 genmove w
+</a>#?[f2]
+</span><span class="fail">= g7
+
+</span>
+<span class="command">boardsize 7
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">clear_board
+</span>= 
+
+<span class="command">play b b4
+</span>= 
+
+<span class="command">play w c4
+</span>= 
+
+<span class="command">play b c5
+</span>= 
+
+<span class="command">play w d4
+</span>= 
+
+<span class="command">play b b5
+</span>= 
+
+<span class="command">play w d3
+</span>= 
+
+<span class="command">play b d2
+</span>= 
+
+<span class="command">play w c3
+</span>= 
+
+<span class="test"><a name="110">110 policy_moves
+</a>#?[Capture c2 d5 e2 e4]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">boardsize 7
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">clear_board
+</span>= 
+
+<span class="command">play b b4
+</span>= 
+
+<span class="command">play w c4
+</span>= 
+
+<span class="command">play b c5
+</span>= 
+
+<span class="command">play w d4
+</span>= 
+
+<span class="command">play b b5
+</span>= 
+
+<span class="command">play w d3
+</span>= 
+
+<span class="command">play b d2
+</span>= 
+
+<span class="command">play w b3
+</span>= 
+
+<span class="command">play b c6
+</span>= 
+
+<span class="test"><a name="120">120 policy_moves
+</a>#?[Capture b6 c7]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">boardsize 7
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">clear_board
+</span>= 
+
+<span class="command">play b b4
+</span>= 
+
+<span class="command">play w c4
+</span>= 
+
+<span class="command">play b c5
+</span>= 
+
+<span class="command">play w d4
+</span>= 
+
+<span class="command">play b b5
+</span>= 
+
+<span class="command">play w d3
+</span>= 
+
+<span class="command">play b d2
+</span>= 
+
+<span class="command">play w b3
+</span>= 
+
+<span class="command">play b c6
+</span>= 
+
+<span class="command">play w d6
+</span>= 
+
+<span class="command">play b d5
+</span>= 
+
+<span class="test"><a name="130">130 policy_moves
+</a>#?[Capture a3 b6 c7]
+</span><span class="fail">? Unknown command
+
+</span>
+<span class="command">clear_board
+</span>= 
+
+<span class="command">boardsize 7
+</span>= 
+
+<span class="command">policy rule_based
+</span><span class="error">? Unknown command
+
+</span><span class="command">play b d4
+</span>= 
+
+<span class="command">play w d3
+</span>= 
+
+<span class="command">play b c4
+</span>= 
+
+<span class="command">play w c3
+</span>= 
+
+<span class="command">play b e4
+</span>= 
+
+<span class="command">play w b4
+</span>= 
+
+<span class="command">play b e3
+</span>= 
+
+<span class="command">play w d2
+</span>= 
+
+<span class="command">play b b3
+</span>= 
+
+<span class="command">play w c3
+</span>= 
+
+<span class="command">play b e6
+</span>= 
+
+<span class="command">play w e1
+</span>= 
+
+<span class="command">play b a5
+</span>= 
+
+<span class="command">play w c5
+</span>= 
+
+<span class="command">play b e5
+</span>= 
+
+<span class="command">play w d6
+</span>= 
+
+<span class="test"><a name="140">140 genmove b
+</a>#?[e2|e7]
+</span><span class="fail">= d3
+
+</span></pre>
+<hr style="margin:1em" size="1">
+<pre style="margin:1em">
+</span>cputime
+? Unknown command
+
+quit
+= 
+
+</pre>
+<hr style="margin-bottom:0" size="1">
+<p style="margin-top:1; margin-right:5" align="right"><i><small>Generated on 10/23/23, 12:17 PM by gogui-regress 1.5.3 (<a href="http://gogui.sf.net">http://gogui.sf.net</a>)</small></i></p>
+</body>
+</html>

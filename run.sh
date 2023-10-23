@@ -1,0 +1,1 @@
+gogui-regress "python3 Ninuki.py" ./assignment3-public-tests.gtp
